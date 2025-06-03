@@ -242,17 +242,9 @@
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="https://forms.google.com/join-circle"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
-                  >
-                    Rejoindre le cercle
-                  </a>
                   <Button
                     onClick={() => setInstructionsModalOpen(true)}
-                    className="px-8 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider"
+                    className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
                   >
                     Instructions
                   </Button>

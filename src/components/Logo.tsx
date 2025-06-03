@@ -16,21 +16,19 @@ const Logo = ({ size = "normal" }: { size?: "small" | "normal" | "large" }) => {
           <img 
             src="/images/per_horus.png" 
             alt="Per Horus Logo" 
-           className="h-[150px] w-24 animate-scarab-glow"
+           className="h-half w-half animate-scarab-glow"
 
           />
         </div>
       </div>
       <div className={`flex flex-col items-start`}>
         <div className={`font-egyptian font-bold text-pharaonic-gold ${sizeClasses[size]} tracking-wide relative bg-gradient-to-r from-pharaonic-gold to-pharaonic-brightGold bg-clip-text text-transparent drop-shadow-[0_0_2px_rgba(255,203,69,0.7)]`}>
-          <span className="relative inline-block">
             Per Horus
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-pharaonic-gold transition-all duration-300 group-hover:w-full"></span>
-          </span>
         </div>
-        <div className="text-sm text-pharaonic-gold/80 font-egyptian italic">
+        {/* <div className="text-sm text-pharaonic-gold/80 font-egyptian italic">
           Le Cercle du Savoir Oublié
-        </div>
+        </div> */}
       </div>
     </Link>
   );

@@ -99,7 +99,7 @@ const About = () => {
             <ScrollReveal>
               <div className="flex justify-center mt-12">
                 <a 
-                  href="href=/files/Statuts de l'Association PDF D.pdf"
+                  href="/files/Statuts de l'Association PDF D.pdf"
                   download="Télécharger le PDF"
                   className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
                              hover:bg-pharaonic-gold/90 transition-colors 
@@ -426,17 +426,13 @@ const About = () => {
             <ScrollReveal>
               <div className="flex flex-col items-center justify-center mt-12 gap-4">
                 <div className="flex flex-col md:flex-row gap-4">
-                  <a 
-                    href="/files/Kheka_Yoga_Programme.pdf"
+                  <a href="/files/Kheka_Yoga_Programme.pdf"
                     download="Kheka_Yoga_Programme.pdf"
                     className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
                                hover:bg-pharaonic-gold/90 transition-colors 
-                               font-egyptian tracking-wider"
-                  >
-                    Télécharger le programme Kheka Yoga
-                  </a>
-                  <Link 
-                    to="/contact"
+                               font-egyptian tracking-wider">
+                    Télécharger le programme Kheka Yoga</a>
+                  <Link to="/contact"
                     className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
                                hover:bg-pharaonic-gold/90 transition-colors 
                                font-egyptian tracking-wider"

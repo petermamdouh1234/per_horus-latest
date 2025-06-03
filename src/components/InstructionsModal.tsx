@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogClose 
 } from '@/components/ui/dialog';
-
+ 
 interface InstructionsModalProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;

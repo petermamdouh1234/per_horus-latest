@@ -236,19 +236,44 @@ const Onirologie = () => {
         <ol className="space-y-4">
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</span>
-            <p>Rédigez votre rêve avec soin. Fidèlement. En détail. Chaque élément est un hiéroglyphe vivant.</p>
-          </li>
+            <p>
+              Notez votre rêve avec soin. Fidèlement. Détaillément. Chaque élément est un hiéroglyphe vivant. 
+              Remplissez-le <br></br>&nbsp;
+              <a 
+                href="https://docs.google.com/forms/d/1ruj8QU5wNeJJPFCcokhmhvCBKzwOiza4Wu7RTbPHYrM/edit" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >dans ce formulaire</a>.
+            </p> </li>
           <li className="flex items-start">
-            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">2</span>
-            <p>Envoyez-le par mail à : reves@perhorus.org</p>
-          </li>
+            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 
+            flex-shrink-0 mt-0.5">1</span>
+            <p>
+              Contribution : 90 CHF sur ce compte<br></br>&nbsp;
+              <a 
+                href="here is the strip link.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >striplink</a>.
+            </p> </li>
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</span>
-            <p>Nous vous recontacterons pour fixer un rendez-vous en ligne (visioconférence ou appel). Un espace sobre, profond, confidentiel — où le rêve sera traversé, écouté, traduit et intégré.</p>
-          </li>
+            <p>
+              Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation&nbsp;
+              <a
+                href="https://wa.me/201288997778"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >
+                01288997778
+              </a>
+            </p> </li>
         </ol>
         <div className="mt-6 border-t border-pharaonic-gold/30 pt-4">
-          <p className="font-egyptian text-xl text-pharaonic-gold">Contribution : CHF 90.–</p>
+          <p className="font-egyptian text-xl text-pharaonic-gold">Note :</p>
           <p className="text-lg mt-2">
             Ce n'est pas un service. C'est une clé offerte pour ouvrir un seuil oublié (dans l'ombre
             de l'inconscient). Ce tarif n'achète pas une interprétation. Il honore une transmission rare, un moment 

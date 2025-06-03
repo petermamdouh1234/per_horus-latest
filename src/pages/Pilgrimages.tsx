@@ -1,9 +1,10 @@
 
         import React, { useState, useEffect } from 'react';
         import { Link } from 'react-router-dom';
-        import { ArrowRight } from 'lucide-react';
+        import { ArrowRight, Download } from 'lucide-react';
         import ScrollReveal from '@/components/ScrollReveal';
-
+import InstructionsModal from '@/components/InstructionsModal';
+        
         const retreatImages = [
         '/images/1.6.jpg',
         '/images/1.3.jpg',
@@ -54,7 +55,7 @@
 
         const Pilgrimages = () => {
         const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
+        const [dreamModalOpen, setDreamModalOpen] = useState(false);
         useEffect(() => {
         const interval = setInterval(() => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % retreatImages.length);
@@ -62,6 +63,7 @@
 
         return () => clearInterval(interval);
         }, []);
+
 
         return (
         <div className="py-16">
@@ -280,26 +282,27 @@
                   <p>Trois jours pour que l'énergie se lève — en vous, à travers vous, entre vous.</p>
                 </div>
                 
+
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-                  <a
-                    href="https://forms.google.com/retreat-booking"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-6 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
-                  >
-                    S'inscrire
-                  </a>
-                  <a 
-                    href="/files/Programme_Weekend_Alchimique_PerHorus_PDF_B.pdf" 
-                    download="weekend alps _Programme.pdf"
+                  <button
+                    type="button"
+                    onClick={() => setDreamModalOpen(true)}
                     className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
                                 hover:bg-pharaonic-gold/90 transition-colors 
                                 font-egyptian tracking-wider"
                   >
-                Télécharger le programme du weekend
+                    Interprétation de rêve
+                  </button>
+                  <a
+                    href="/files/Programme_Weekend_Alchimique_PerHorus PDF B.pdf"
+                    download="Weekend Alps Programme.pdf"
+                    className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
+                                hover:bg-pharaonic-gold/90 transition-colors 
+                                font-egyptian tracking-wider"
+                  >
+                    Télécharger le programme du weekend
                   </a>
-                </div>
-              </div>
+                </div>         </div>
               </ScrollReveal>
             </div>
             </ScrollReveal>
@@ -465,24 +468,21 @@
                 </p>
                 
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-                  <a
-                    href="https://forms.google.com/retreat-booking"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    type="button"
+                    onClick={() => setDreamModalOpen(true)}
                     className="px-6 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
                   >
-                    S'inscrire
-                  </a>
+                    Interprétation de rêve
+                  </button>
                   <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider"
+                    href="/files/Programme_Voyage_Egypte_PerHorus- PDF C.pdf"
+                    download="Programme Voyage Egypte PerHorus.pdf"
+                    className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider inline-block text-center"
                   >
                     Télécharger le programme
                   </a>
-                </div>
-              </div>
+                </div>         </div>
               </ScrollReveal>
             </div>
             </ScrollReveal>
@@ -672,27 +672,21 @@
                   <p>À marcher quelques jours aux côtés de ceux qui n’ont jamais quitté l’essentiel.</p>
                   <p>Et à en revenir… plus lucide. Plus vivant.</p>
                 </div>
-                
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-                  <a
-                    href="https://forms.google.com/retreat-booking"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    type="button"
+                    onClick={() => setDreamModalOpen(true)}
                     className="px-6 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
                   >
-                    S'inscrire
-                  </a>
-                  <a 
-                    href="/files/Programme_Weekend_Alchimique_PerHorus_PDF_B.pdf" 
-                    download="weekend alps _Programme.pdf"
+                    Interprétation de rêve
+                  </button>
+                  <a
+                    href="/files/Programme_Séjour_copte.pdf"
+                    download="Programme Séjour copte.pdf"
                     className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
-                                hover:bg-pharaonic-gold/90 transition-colors 
-                                font-egyptian tracking-wider"
-                  >
-                Télécharger le programme du weekend
-                  </a>
-                </div>
-              </div>
+                                hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider text-center">
+                    Télécharger le programme du weekend
+                  </a>         </div>         </div>
               </ScrollReveal>
             </div>
             </ScrollReveal>
@@ -706,8 +700,62 @@
           </Link>
         </div>
         </div>
+
+        {/* Retreat Modal */}
+      <InstructionsModal 
+        open={dreamModalOpen} 
+        onOpenChange={setDreamModalOpen}
+        title="Le processus"
+      >
+        <ol className="space-y-4">
+          <li className="flex items-start">
+            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</span>
+            <p>
+              Notez votre rêve avec soin. Fidèlement. Détaillément. Chaque élément est un hiéroglyphe vivant. 
+              Remplissez-le <br></br>&nbsp;
+              <a 
+                href="https://docs.google.com/forms/d/1ruj8QU5wNeJJPFCcokhmhvCBKzwOiza4Wu7RTbPHYrM/edit" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >dans ce formulaire</a>.
+            </p> </li>
+          <li className="flex items-start">
+            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 
+            flex-shrink-0 mt-0.5">1</span>
+            <p>
+              Contribution : 90 CHF sur ce compte<br></br>&nbsp;
+              <a 
+                href="here is the strip link.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >striplink</a>.
+            </p> </li>
+          <li className="flex items-start">
+            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</span>
+            <p>
+              Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation&nbsp;
+              <a
+                href="https://wa.me/201288997778"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >
+                01288997778
+              </a>
+            </p> </li>
+        </ol>
+        <div className="mt-6 border-t border-pharaonic-gold/30 pt-4">
+          <p className="font-egyptian text-xl text-pharaonic-gold">Note :</p>
+          <p className="text-lg mt-2">
+            this is for peter website
+          </p>
+        </div>
+      </InstructionsModal>
         </div>
         );
         };
+
 
         export default Pilgrimages;

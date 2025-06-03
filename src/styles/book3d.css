@@ -16,7 +16,7 @@
 
 .book-cover {
   transform: translateZ(20px);
-  background-image: url('/C:\Users\DELL\Music\per hours akher\Per_horus-main\public\images\555.jpeg');
+  background-image: url('/images/555.jpeg');
   background-size: cover;
   background-position: center;
   backface-visibility: hidden;

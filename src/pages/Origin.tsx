@@ -12,9 +12,7 @@ const Origin = () => {
           <img 
             src="/images/per_horus.png"
             alt="Per Horus Logo" 
-          className="h-[200px] w-auto animate-scarab-glow"
-
-          />
+          className="h-[200px] w-auto animate-scarab-glow"/>
         </div>
         
         <h1 className="pharaonic-heading text-3xl md:text-4xl lg:text-5xl mb-12 text-center gold-gradient-text">

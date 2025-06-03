@@ -58,7 +58,7 @@ const BookPage = () => {
               <div className="space-y-4 p-6 bg-pharaonic-sand/10 rounded-lg">
                 <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-4 flex items-center">
                   <span className="w-8 h-8 mr-2 flex-shrink-0">
-                    <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
+                    <img src="/svgs/pharaoh_colorful.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
                   </span>
                   L'ART DIVINATOIRE OUBLIÉ DE LA BIBLIOMANCIE
                 </h2>
@@ -111,7 +111,7 @@ const BookPage = () => {
            <ScrollReveal>
             <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6 flex items-center">
               <span className="w-8 h-8 mr-2 flex-shrink-0">
-                <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
+                <img src="/svgs/pharaoh.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
               </span>
               Psychosophie : Sagesse de l'âme
             </h2>
@@ -126,13 +126,13 @@ const BookPage = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="w-6 h-6 mr-3 flex-shrink-0 mt-0.5">
-                    <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full" />
+                    <img src="/svgs/eye_of_horus.svg" alt="Scarab" className="w-full h-full" />
                   </span>
                   <span>Culpabilité, félicité, empathie, mort, peur, souffrance, perversion, abandon originel...</span>
                 </li>
                 <li className="flex items-start">
                   <span className="w-6 h-6 mr-3 flex-shrink-0 mt-0.5">
-                    <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full" />
+                    <img src="/svgs/eye_of_horus.svg" alt="Scarab" className="w-full h-full" />
                   </span>
                   <span>L'infini, le miroir, le pardon, la liberté, la joie d'exister</span>
                 </li>
@@ -148,7 +148,7 @@ const BookPage = () => {
            <ScrollReveal>
             <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6 flex items-center">
               <span className="w-8 h-8 mr-2 flex-shrink-0">
-                <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
+                <img src="/svgs/pharaoh.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
               </span>
               Comment pratiquer la bibliomancie avec ce livre
             </h2>
@@ -195,7 +195,7 @@ const BookPage = () => {
            <ScrollReveal>
             <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6 flex items-center">
               <span className="w-8 h-8 mr-2 flex-shrink-0">
-                <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
+                <img src="/svgs/pharaoh.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
               </span>
               Pour qui ?
             </h2>
@@ -207,7 +207,7 @@ const BookPage = () => {
               ].map((text, index) => (
                 <li key={index} className="flex items-start">
                   <span className="w-6 h-6 mr-3 flex-shrink-0 mt-0.5">
-                    <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full" />
+                    <img src="/svgs/eye_of_horus.svg" alt="Scarab" className="w-full h-full" />
                   </span>
                   <span>{text}</span>
                 </li>
