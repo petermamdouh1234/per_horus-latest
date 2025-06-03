@@ -5,7 +5,7 @@ import { MapPin, Mail, Phone } from 'lucide-react';
 const sessionTypes = [
   "Le Cercle Kheka",
   "Interprétation des Rêves",
-  "Rejoindre l’Association Per Horus ",
+  "Rejoindre l’circle Per Horus ",
   "Le Livre-Miroir ",
   "Séjour dans les Alpes",
   "Voyages en Égypte "
@@ -93,7 +93,7 @@ const Contact = () => {
                 <ul className="scarab-bullet space-y-4">
                   <li> Le Cercle Kheka </li>
                   <li> Interprétation des Rêves</li>
-                  <li>Rejoindre l’Association Per Horus </li>
+                  <li>Rejoindre l’circle Per Horus </li>
                   <li>Le Livre-Miroir </li>
                   <li>Séjour dans les Alpes </li>
                   <li>Voyages en Égypte </li>

@@ -33,18 +33,24 @@ const BookPage = () => {
             <ScrollReveal direction="left">
               <div className="book-3d w-64 h-80 relative mx-auto">
                 <div className="book-pages absolute inset-0 m-0 p-0"></div>
-                <div className="book-cover absolute inset-0 m-0 p-0 bg-gradient-to-br from-pharaonic-gold to-pharaonic-sandDark overflow-hidden">
-                  <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center bg-pharaonic-charcoal">
-                    <h3 className="font-egyptian font-bold text-pharaonic-gold text-xl mb-4">IL SUFFIT D'OBSERVER</h3>
-                    <div className="w-16 h-16 bg-pharaonic-gold/30 rounded-full flex items-center justify-center mb-4 animate-pulse-gold">
-                      <img src="/scarab-bullet.svg" alt="Scarab" className="w-10 h-10" />
-                    </div>
-                    <p className="font-egyptian text-pharaonic-gold/80 mt-auto">BIBLIOMANCIE</p>
-                  </div>
-                </div>
+                <div className="book-cover absolute inset-0 m-0 p-0 overflow-hidden rounded-lg">
+  <img 
+    src="/images/555.jpeg" 
+    alt="Book Cover" 
+    className="w-full h-full object-cover"
+  />
+</div>
+
                 <div className="book-spine absolute h-full w-[40px] left-0 m-0 p-0"></div>
                 <div className="book-edge absolute h-full w-[40px] right-0 m-0 p-0"></div>
-                <div className="book-back absolute inset-0 m-0 p-0"></div>
+               <div className="book-back absolute inset-0 m-0 p-0 overflow-hidden rounded-lg">
+  <img
+    src="/images/666.jpeg"  // your back cover image path here
+    alt="Book Back Cover"
+    className="w-full h-full object-cover"
+  />
+</div>
+
               </div>
             </ScrollReveal>
             
@@ -80,6 +86,7 @@ const BookPage = () => {
           </section>
           
           <section className="p-6 bg-pharaonic-sand/10 rounded-lg">
+           <ScrollReveal>
             <div className="space-y-4">
               <p className="text-lg">
                 "Il suffit d'observer" est un pont vivant entre l'art ancien de la bibliomancie et l'exploration
@@ -97,9 +104,11 @@ const BookPage = () => {
                 <p className="text-lg">Ce que vous cherchez est peut-être là, dans une phrase que vous n'avez pas choisie.</p>
               </div>
             </div>
+             </ScrollReveal>
           </section>
           
           <section className="p-6 bg-pharaonic-sand/10 rounded-lg">
+           <ScrollReveal>
             <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6 flex items-center">
               <span className="w-8 h-8 mr-2 flex-shrink-0">
                 <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
@@ -132,9 +141,11 @@ const BookPage = () => {
                 Ce livre est un journal d'âme déstructuré, organisé par les silences qu'il provoque.
               </p>
             </div>
+             </ScrollReveal>
           </section>
           
           <section className="p-6 bg-pharaonic-sand/10 rounded-lg">
+           <ScrollReveal>
             <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6 flex items-center">
               <span className="w-8 h-8 mr-2 flex-shrink-0">
                 <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
@@ -165,9 +176,23 @@ const BookPage = () => {
               Une pratique d'observation sacrée.
               Une rencontre avec ce qui, en vous, demande à être entendu.
             </p>
+             </ScrollReveal>
           </section>
+          <div className="w-16 h-1 bg-pharaonic-gold mx-auto mb-8"></div>
+                
+                <div className="my-8">
+                   <ScrollReveal>
+                  <img 
+                    src="/images/45.jpeg"  
+                    alt="Transformation Journey"
+                    className="rounded-md w-full h-[500px] object-cover mx-auto pharaonic-border"
+                  />
+                   </ScrollReveal>
+                </div>
+                
           
           <section className="p-6 bg-pharaonic-sand/10 rounded-lg">
+           <ScrollReveal>
             <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6 flex items-center">
               <span className="w-8 h-8 mr-2 flex-shrink-0">
                 <img src="/scarab-bullet.svg" alt="Scarab" className="w-full h-full animate-scarab-glow" />
@@ -188,6 +213,7 @@ const BookPage = () => {
                 </li>
               ))}
             </ul>
+             </ScrollReveal>
           </section>
           
           <section className="p-8 bg-gradient-to-r from-pharaonic-gold/20 to-pharaonic-sand/30 rounded-lg text-center">
@@ -221,11 +247,13 @@ const BookPage = () => {
           </section>
           
           <section className="text-center">
+             <ScrollReveal>
             <div className="font-medium my-6 space-y-2 bg-pharaonic-gold/10 p-6 rounded-lg">
               <p className="text-lg">Ce livre est une graine. Un miroir. Un outil de réveil doux.</p>
               <p className="text-lg">C'est la version silencieuse d'un même message :</p>
               <p className="text-xl font-egyptian text-pharaonic-gold">La sagesse n'est pas absente. Elle attend que l'on s'observe.</p>
             </div>
+            </ScrollReveal>
           </section>
         </div>
         

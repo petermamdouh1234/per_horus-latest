@@ -19,21 +19,24 @@ const Book = () => {
             <div className="flex justify-center">
               <div className="book-3d w-80 h-96 relative">
                 <div className="book-pages absolute inset-0 m-0 p-0"></div>
-                <div className="book-cover absolute inset-0 m-0 p-0 bg-gradient-to-br from-pharaonic-gold to-pharaonic-sandDark overflow-hidden">
-                  <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
-                    <h3 className="font-egyptian font-bold text-white text-2xl mb-4">KHEKA YOGA</h3>
-                    <p className="font-egyptian text-white/80 mb-8 tracking-wider">THE LOST EGYPTIAN SCIENCE</p>
-                    <div className="w-16 h-16 bg-white/30 rounded-full flex items-center justify-center mb-8">
-                      <span className="text-white text-3xl">𓂀</span>
-                    </div>
-                    <div className="mt-auto">
-                      <p className="font-egyptian text-white/90">By Dr. Kheka</p>
-                    </div>
-                  </div>
-                </div>
+                <div className="book-cover absolute inset-0 m-0 p-0 overflow-hidden rounded-lg">
+  <img 
+    src="/images/555.jpeg" 
+    alt="Book Cover" 
+    className="w-full h-full object-cover"
+  />
+</div>
+
                 <div className="book-spine absolute h-full w-[40px] left-0 m-0 p-0"></div>
                 <div className="book-edge absolute h-full w-[40px] right-0 m-0 p-0"></div>
-                <div className="book-back absolute inset-0 m-0 p-0"></div>
+                <div className="book-back absolute inset-0 m-0 p-0 overflow-hidden rounded-lg">
+  <img
+    src="/images/666.jpeg"  // your back cover image path here
+    alt="Book Back Cover"
+    className="w-full h-full object-cover"
+  />
+</div>
+
               </div>
             </div>
             

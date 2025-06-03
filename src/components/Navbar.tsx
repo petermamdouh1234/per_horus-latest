@@ -10,7 +10,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Accueil', href: '/' },
+    { name: 'Le Seuil', href: '/' },
     { name: 'Lè Pacte Foundateur', href: '/about' },
     { name: 'Onirologie', href: '/onirologie' },
     { name: 'Pèlerinages', href: '/pilgrimages' },

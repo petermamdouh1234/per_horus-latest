@@ -30,7 +30,8 @@ const HeroSection = () => {
             <img 
               src="/images/per_horus.png" 
               alt="Per Horus Logo" 
-              className="h-24 w-auto animate-scarab-glow"
+            className="h-[200px] w-auto animate-scarab-glow"
+
             />
           </div>
           
@@ -44,29 +45,19 @@ const HeroSection = () => {
             <span className="text-pharaonic-gold text-2xl">𓂀</span>
           </div>
           
-          <h2 className="text-xl md:text-2xl font-egyptian text-white mb-8">
-            L'Art Hermétique de la Transmutation Intérieure
+          <h2 className="text-pharaonic-gold text-2xl">
+             « Ce n’est pas le mystère qui a disparu : c’est l’intelligence pour l’accueillir… » 
           </h2>
           
           <p className="text-white/90 text-base md:text-lg mb-10 max-w-2xl mx-auto">
-            Se souvenir pour évoluer — Raviver la sagesse des anciens Égyptiens, alliant pragmatisme spirituel
-            et maîtrise de l'incarnation.
+          Ce n’est pas le monde qui s’est vidé de sens. C’est notre regard qui s’est émoussé, aplati, domestiqué.
+          Le mystère est toujours là — brûlant, exigeant, souverain.
+          Mais nous avons désappris à le lire.
+          Nous avons troqué la verticalité de l’âme contre des techniques à la mode.
+          Nous avons perdu l’intelligence symbolique, celle qui ne sépare pas le visible de l’invisible, le souffle du corps, la forme du fond.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/about"
-              className="pharaonic-button group"
-            >
-              <span className="relative z-10">En Savoir Plus</span>
-            </Link>
-            <Link
-              to="/circle"
-              className="pharaonic-button-outline"
-            >
-              Rejoindre le Cercle
-            </Link>
-          </div>
+          
           
           <div className="flex justify-center mt-12">
             <div className="w-24 h-1 bg-pharaonic-gold/50"></div>

@@ -17,7 +17,7 @@ const BookShowcase = () => {
             {/* 3D Book */}
             <div className="flex justify-center">
               <div className="book-3d w-64 h-80 relative animate-book-rotate">
-                <div className="book-cover absolute w-full h-full rounded bg-gradient-to-br from-pharaonic-gold to-pharaonic-sandDark overflow-hidden">
+                <div  absolute w-full h-full rounded bg-gradient-to-br from-pharaonic-gold to-pharaonic-sandDark overflow-hidden">
                   <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
                     <h3 className="font-egyptian font-bold text-white text-xl mb-4">KHEKA YOGA</h3>
                     <p className="font-egyptian text-white/80 mb-6">THE LOST EGYPTIAN SCIENCE</p>
@@ -27,7 +27,7 @@ const BookShowcase = () => {
                   </div>
                 </div>
                 <div className="book-spine"></div>
-                <div className="book-back"></div>
+                <div ack"></div>
               </div>
             </div>
             

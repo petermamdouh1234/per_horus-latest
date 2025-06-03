@@ -2,7 +2,7 @@
         import React, { useState, useEffect } from 'react';
         import { Link } from 'react-router-dom';
         import { ArrowRight } from 'lucide-react';
-         import ScrollReveal from '@/components/ScrollReveal';
+        import ScrollReveal from '@/components/ScrollReveal';
 
         const retreatImages = [
         '/images/1.6.jpg',
@@ -36,6 +36,21 @@
 
 
         ];
+         const thirdRetreatImages = [
+        "/images/311.jpeg",
+        "/images/312.jpeg",
+        "/images/313.jpeg",
+        "/images/314.jpeg",
+        "/images/305.jpeg",
+        "/images/306.jpeg",
+        "/images/307.jpeg",
+        "/images/308.jpeg",
+        "/images/309.jpeg",
+        "/images/310.jpeg",
+
+
+
+        ];
 
         const Pilgrimages = () => {
         const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -52,15 +67,26 @@
         <div className="py-16">
         <div className="container mx-auto px-4">
         <h1 className="pharaonic-heading text-3xl md:text-4xl lg:text-5xl mb-12 text-center">
-         <ScrollReveal> Les Pèlerinages Alchimiques</ScrollReveal>
+        <ScrollReveal> Les Pèlerinages Alchimiques</ScrollReveal>
         </h1>
+        <div className="w-16 h-1 bg-pharaonic-gold mx-auto mb-8"></div>
+                
+                <div className="my-8">
+                   <ScrollReveal>
+                  <img 
+                    src="/images/717.jpeg"  
+                    alt="Transformation Journey"
+                    className="rounded-md w-[900px] h-[450px] object-cover mx-auto pharaonic-border"
+                  />
+                   </ScrollReveal>
+                </div>
 
         <div className="max-w-4xl mx-auto space-y-16">
           <section>
             <ScrollReveal>
             <div className="text-center mb-12">
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-4">
-                Deux voyages. Une seule œuvre intérieure
+                 trois voyages. Une seule œuvre intérieure
               </h2>
               <p className="text-xl italic">Incarner l'union des polarités.</p>
             </div>
@@ -133,6 +159,7 @@
             
             {/* Alps Retreat */}
             <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                
               <div className="relative h-[500px] rounded-md overflow-hidden pharaonic-border">
                 {retreatImages.map((image, index) => (
                   <div
@@ -202,6 +229,7 @@
             </div>
             
             <div className="mt-12 p-6 pharaonic-border bg-pharaonic-sand/20 rounded-lg">
+              <ScrollReveal>
               <h3 className="text-xl font-egyptian text-pharaonic-gold mb-4"><span className="text-pharaonic-gold text-2xl">✦</span> Ce que comprend l'Œuvre :</h3>
               <ul className="scarab-bullet space-y-3">
                 <li>
@@ -272,6 +300,7 @@
                   </a>
                 </div>
               </div>
+              </ScrollReveal>
             </div>
             </ScrollReveal>
           </section>
@@ -365,8 +394,9 @@
             </div>
             
             <div className="mt-12 p-6 pharaonic-border bg-pharaonic-sand/20 rounded-lg">
+            <ScrollReveal>
               <h3 className="text-xl font-egyptian text-pharaonic-gold mb-4"><span className="text-pharaonic-gold text-2xl">✦</span> Ce que comprend l'Œuvre :</h3>
-              <p className="text-lg font-medium mb-4"><span className="text-pharaonic-gold text-2xl">𓂀</span> 7 jours / 6 nuits — Non pas un voyage, mais une remontée vers l'origine.</p>
+              <p className="text-lg font-medium mb-4"><span className="text-pharaonic-gold text-2xl">𓂀</span> 8 jours / 7 nuits — Non pas un voyage, mais une remontée vers l'origine.</p>
               
               <div className="font-medium text-lg space-y-2 mb-6">
                 <p><span className="text-pharaonic-gold text-2xl">𓂀</span> Ce que vous avez vu de l'Égypte... n'était que l'ombre de son nom.</p>
@@ -383,7 +413,7 @@
               
               <h4 className="text-lg font-egyptian mb-3"><span className="text-pharaonic-gold text-2xl">𓂀</span> La structure sacrée du séjour</h4>
               <ul className="mb-6">
-                <li>3 nuits au Caire</li>
+                <li>4 nuits au Caire</li>
                 <li>3 nuits de croisière sur le Nil</li>
                 <li>Une embarcation privatisée. Zéro bakchich, zéro agitation.</li>
                 <li>Confort haut de gamme, silence habitable, déplacements fluides.</li>
@@ -453,16 +483,22 @@
                   </a>
                 </div>
               </div>
+              </ScrollReveal>
             </div>
             </ScrollReveal>
           </section>
-            {/* ard far7 Retreat */}
-          <section>
+                  <section>
             <ScrollReveal>
-             {/* Alps Retreat */}
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-egyptian text-pharaonic-gold">
+                Deux formats. Une même intention : unifier, intégrer, bâtir
+              </h2>
+            </div>
+            
+            {/* ard far7 Retreat */}
             <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="relative h-[500px] rounded-md overflow-hidden pharaonic-border">
-                {retreatImages.map((image, index) => (
+                {thirdRetreatImages.map((image, index) => (
                   <div
                     key={index}
                     className={`absolute inset-0 transition-opacity duration-1000 ${
@@ -485,99 +521,156 @@
               
               <div className="space-y-4">
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Ce n'est pas un choix entre plaisir et profondeur. C'est l'union des deux.
-                  Le luxe devient outil. La montagne, un temple. Et l'élévation n'a jamais été aussi concrète.
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> On a traversé la planète pour chercher des réponses.
                 </p>
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Ce week-end n'est pas une retraite ascétique.
-                  C'est un chantier sacré à ciel ouvert, où l'on vient pour évoluer sans renoncer à la joie, à la
-                  beauté, au confort.
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> On est allé jusqu’aux ashrams de l’Himalaya, aux temples balinais. 
+                    aux retraites chamaniques de la jungle.
                 </p>
                 <div className="font-medium text-lg space-y-2">
-                  <p><span className="text-pharaonic-gold text-2xl">𖤍</span> Oui, vous allez kiffer.</p>
-                  <p><span className="text-pharaonic-gold text-2xl">𖤍</span> Et oui, vous allez être secoués — doucement, mais sûrement.</p>
+                  <p><span className="text-pharaonic-gold text-2xl">𖤍</span> On a pratiqué des traditions qui n’ont rien à voir avec notre histoire.</p>
+                  <p><span className="text-pharaonic-gold text-2xl">𖤍</span> dans l’espoir d’y retrouver ce qui nous manque : un axe ,  Une direction , Une paix intérieure.</p>
                 </div>
                 
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Le lieu n'est pas choisi au hasard.
-                  C'est là-haut, dans les Alpes, que tout se passe.
-                  Parce que monter physiquement, c'est préparer l'élévation intérieure.
-                  Parce que la hauteur désencombre, donne du souffle, et rappelle à l'essentiel.
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span>Mais ce que l’on cherche si loin…
                 </p>
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Ici, vous ne venez pas pour fuir le monde.
-                  Vous venez pour le traverser autrement, à deux, dans un lieu clair, rare, aligné.
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> existe déjà. Et depuis toujours.
                 </p>
+                <p className="text-lg">
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Au cœur de l’Égypte, une communauté copte vit encore selon une tradition mystique.
+                  simple et incarnée.
+                </p>
+                <p className="text-lg">
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Une tradition qui n’a jamais rompu avec ses racines.
+                </p>
+                <p className="text-lg">
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Celle des Pères du désert, fondateurs du christianisme intérieur.
+                </p>
+                <p className="text-lg">
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> et véritables gardiens de la première spiritualité occidentale.
+                </p>
+
                 
                 <div className="mt-6">
-                  <h4 className="font-egyptian text-lg mb-3"><span className="text-pharaonic-gold text-2xl">✦</span> Pour qui ?</h4>
+                  <h4 className="font-egyptian text-lg mb-3"><span className="text-pharaonic-gold text-2xl">✦ Une ouverture exceptionnelle</span> </h4>
                   <p className="text-lg">
-                    <span className="text-pharaonic-gold text-2xl">𓆓</span> Ce week-end est pour ceux qui ne veulent plus seulement comprendre, mais incarner.
-                    Pour les couples lucides, les êtres en lien, qui pressentent que le lien à deux peut devenir
-                    une voie initiatique.
+                    <span className="text-pharaonic-gold text-2xl">𓆓</span> Ces communautés vivent loin du bruit.
+      Elles n’ont jamais eu besoin de se montrer.
                   </p>
                   <p className="text-lg">
-                    <span className="text-pharaonic-gold text-2xl">𓆓</span> Ce n'est pas une échappée.
-                    Ce n'est pas un pansement relationnel.
+                    <span className="text-pharaonic-gold text-2xl">𓆓</span> Mais aujourd’hui, elles nous accueillent.
+      Pas pour prouver, convaincre ou transmettre un dogme.
+      Mais pour nous permettre d’observer, de ressentir, de vivre avec elles — le temps d’un séjour.
                   </p>
                   <div className="font-medium text-lg mt-4 space-y-2">
-                    <p><span className="text-pharaonic-gold text-2xl">𓆓</span> Ici, le lien devient miroir.</p>
-                    <p><span className="text-pharaonic-gold text-2xl">𓆓</span> Le rêve devient carte.</p>
-                    <p><span className="text-pharaonic-gold text-2xl">𓆓</span> Et la colonne vertébrale devient axe sacré.</p>
+                    <p><span className="text-pharaonic-gold text-2xl">𓆓</span> C’est une aubaine,Un privilège rare.</p>
+                    <p><span className="text-pharaonic-gold text-2xl">𓆓</span> Et pour beaucoup d’entre nous, ce mode de vie semble presque utopique.
+      Mais l’utopie existe déjà.</p>
+                    <p><span className="text-pharaonic-gold text-2xl">𓆓</span> Elle respire, elle prie, elle travaille,
+      dans ce village aux portes du Caire,
+      où la foi structure encore la vie.</p>
                   </div>
                 </div>
               </div>
             </div>
             
             <div className="mt-12 p-6 pharaonic-border bg-pharaonic-sand/20 rounded-lg">
-              <h3 className="text-xl font-egyptian text-pharaonic-gold mb-4"><span className="text-pharaonic-gold text-2xl">✦</span> Ce que comprend l'Œuvre :</h3>
+            <ScrollReveal>
+              <h3 className="text-xl font-egyptian text-pharaonic-gold mb-4"><span className="text-pharaonic-gold text-2xl">✦</span>   Ce que comprend l'Œuvre :</h3>
               <ul className="scarab-bullet space-y-3">
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Transport aller-retour depuis Genève</span><br />
-                  Pour entrer dans l'espace sacré dès le départ — sans distraction, sans friction.
-                </li>
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Hébergement de luxe, noble et silencieux</span><br />
-                  Un lieu pensé pour que le confort devienne soutien à la conscience, non fuite.
-                </li>
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Chef privé à résidence</span><br />
-                  Des repas précis, symboliques, adaptés à votre rythme et vos besoins — car l'alchimie commence dans l'assiette.
-                </li>
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Intervenants incarnés</span><br />
-                  Pas de gourou. Pas de show. Des praticiens du réel, porteurs de sagesse ancienne, enracinée et transmise avec exigence.
-                </li>
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Rituels de rêve et interprétation guidée</span><br />
-                  Chaque nuit devient un seuil. Les rêves incubés sont lus, traduits, rendus à leur puissance symbolique, dans un espace confidentiel.
-                </li>
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Travail sur la Kundalini réelle</span><br />
-                  Danses sacrée, gestes, ancrage : une montée consciente, enracinée dans l'axe, nourrie par la tradition égyptienne — loin des dérives commerciales.
-                </li>
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Pratiques de Kheka Yoga et marche rituelle</span><br />
-                  Le souffle devient verbe. Le pas devient offrande. Le corps devient temple.
-                </li>
-                <li>
-                  <span className="font-medium"><span className="text-pharaonic-gold text-2xl">𓂀</span> Programme mystique révélé sur place</span><br />
-                  Chaque détail est pensé comme une révélation progressive — pour respecter le rythme initiatique.
-                </li>
+              <li>
+      <span className="font-medium">
+        <span className="text-pharaonic-gold text-2xl">𓂀</span>  Ce que comprend l'Œuvre :
+      </span>
+      <br />
+      Pendant cinq jours, nous serons immergés dans une communauté copte vivante. 
+      Nous partagerons leurs repas. Nous assisterons à leurs prières. 
+      Nous participerons à la vie du village, à leurs gestes simples et chargés de sens.
+    </li>
+
+    <li>
+      Ce n’est pas un stage. C’est une expérience directe d’un mode de vie mystique, structurant, profondément humain.
+      Un mode de vie que notre société a oublié, mais qui, ici, reste vivant et clair.
+    </li>
+
+    <li>
+      <span className="font-medium">
+        <span className="text-pharaonic-gold text-2xl">𓂀</span> Autour de nous, des lieux qui murmurent encore
+      </span>
+      <br />
+      Entre deux temps partagés dans la communauté, nous marcherons dans des sites essentiels :<br />
+      Gizeh : trois géantes silencieuses, dressées face à l’éternité<br />
+      Le Caire Copte : un entrelacs d’églises souterraines, de pierres habitées, de prières toujours vivantes<br />
+      Le Nouveau Grand Musée du Caire : un chef-d’œuvre architectural où l’Égypte ancienne retrouve sa voix
+    </li>
+    <li>
+        <br />
+            Sur les hauteurs de la citadelle de Saladin, où la beauté de l’Islam se déploie dans la pierre et le ciel,
+            et rappelle qu’ici aussi, la foi a su bâtir avec grâce.<br />
+            Dans les ateliers d’orfèvres coptes,
+        où le feu travaille encore l’or comme on travaille l’âme.
+        Une soirée surprise
+        Elle ne figure sur aucun programme.
+        Parce que certaines expériences ne se prévoient pas.
+        Elles s’offrent quand le moment est juste
+    </li>
+
+    <li>
+      <span className="font-medium">
+        <span className="text-pharaonic-gold text-2xl">𓂀</span>Un éveil qui ne fait pas planer
+      </span>
+      <br />
+    Vivre avec eux, ce n’est pas accéder à un rêve transcendantal.
+  C’est rencontrer la réalité autrement.
+  Pas dans les airs, mais dans les choses simples, solides, nécessaires :
+  le pain qu’on partage, les gestes répétés avec soin, les prières à heure fixe, le rythme lent et dense des jours.
+  Rien ici ne cherche à séduire.
+  Personne ne promet l’illumination en trois phrases ou la paix intérieure en dix respirations.
+  Et pourtant, c’est peut-être là que l’éveil commence vraiment.
+  Non pas celui qu’on nous vend en ligne, en images lisses et paroles sucrées.
+  Mais celui qui prend racine dans le quotidien,
+  dans une vie tissée de foi, de travail, d’écoute et de présence vraie.
+  On ne traverse pas ce lieu sans être touché.
+  Pas de manière spectaculaire.
+  Mais en profondeur.
+  Comme si quelque chose en nous se souvenait d’une façon d’exister plus claire.
+  Et refusait désormais de l’oublier.
+
+    </li>
+
+    <li>
+      <span className="font-medium">
+        <span className="text-pharaonic-gold text-2xl">𓂀</span> Ce que comprend l’expérience
+      </span>
+      <br />
+      5 nuits au Caire (dans la communauté)<br />
+      Tous les repas — authentiques, nourrissants, partagés<br />
+      Accès aux temps spirituels, échanges et vie collective<br />
+      Visites guidées et symboliques : Citadelle, Gizeh, Musée, Caire copte et plus<br />
+      Transferts internes (aéroport, visites) inclus<br />
+      Accompagnement Per Horus + hôte spirituel local<br />
+      Cercle préparatoire et intégration symbolique
+    </li>
+
               </ul>
               
               <div className="mt-8 text-center">
-                <h4 className="font-egyptian text-xl text-pharaonic-gold mb-2">Une proposition unique — radicale, douce, transformatrice</h4>
-                <p className="text-2xl font-medium"><span className="text-pharaonic-gold text-2xl">✦</span> CHF 3900.– / couple — tout inclus</p>
+                <h4 className="font-egyptian text-xl text-pharaonic-gold mb-2">✦ Contribution</h4>
+                <p className="text-2xl font-medium"><span className="text-pharaonic-gold text-2xl">✦</span>CHF 2400.– / personne<br></br>(tout inclut hors vol international)</p>
                 <p className="mt-4 text-lg">
-                  Ce n'est ni un séjour bien-être, ni une parenthèse.
-                  C'est une architecture initiatique complète, encapsulée dans trois jours de grâce, de rigueur
-                  et de feu maîtrisé.
+                  12 participants — pas plus.Entretien préalable requis.Départ Décembre 2026
                 </p>
+
                 <div className="mt-6 font-medium space-y-2">
-                  <p>Trois jours pour vous retrouver.</p>
-                  <p>Trois jours pour laisser le rêve descendre.</p>
-                  <p>Trois jours pour que l'énergie se lève — en vous, à travers vous, entre vous.</p>
+                  <h4> <span className="text-pharaonic-gold text-2xl">✦ Pourquoi partir maintenant</span></h4>
+                  <p>Parce que notre époque a besoin de modèles vivants.</p>
+                  <p>Pas de nouvelles croyances, mais d’autres façons d’habiter le monde.</p>
+                  <p>Et ce que l’on croit impossible — vivre simplement, dans le rituel, dans l’humain, dans la foi active —existe déjà.</p>
+                  <p>Il ne reste qu’à y entrer.</p>
+                  <p>À marcher quelques jours aux côtés de ceux qui n’ont jamais quitté l’essentiel.</p>
+                  <p>Et à en revenir… plus lucide. Plus vivant.</p>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
@@ -600,9 +693,11 @@
                   </a>
                 </div>
               </div>
+              </ScrollReveal>
             </div>
             </ScrollReveal>
           </section>
+          
         </div>
 
         <div className="mt-16 pt-8 border-t border-pharaonic-gold/30 text-center">

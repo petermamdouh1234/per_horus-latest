@@ -21,7 +21,8 @@ const Footer = () => {
               <img 
                 src="/images/per_horus.png"
                 alt="Per Horus Logo" 
-                className="h-16 w-auto animate-scarab-glow"
+              className="h-[200px] w-auto animate-scarab-glow"
+
               />
             </div>
           </div>

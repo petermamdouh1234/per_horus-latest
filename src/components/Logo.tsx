@@ -16,7 +16,8 @@ const Logo = ({ size = "normal" }: { size?: "small" | "normal" | "large" }) => {
           <img 
             src="/images/per_horus.png" 
             alt="Per Horus Logo" 
-            className="w-full h-full object-contain animate-scarab-glow filter drop-shadow-[0_0_8px_rgba(255,203,69,0.7)]"
+           className="h-[150px] w-24 animate-scarab-glow"
+
           />
         </div>
       </div>

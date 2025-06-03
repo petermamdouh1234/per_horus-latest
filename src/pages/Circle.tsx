@@ -72,17 +72,19 @@
                   <span className="text-pharaonic-gold text-2xl">𖤍</span> On ne va pas faire taire le mental, on va le rééduquer ce Conscient (le principe masculin en nous). 
                 </p>
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> 
+                 <span className="text-pharaonic-gold text-2xl">𖤍</span> L’affûter,Le remettre à sa place, Le redresser.  
                 </p>
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Rencontrer son anima ou son animus en rêve, ce n'est pas "penser au féminin ou au
-                  masculin" : c'est incarner une union intérieure entre ce que nous sommes et ce qui nous manque.
-                  C'est embrasser le complémentaire, reconnaître l'altérité en soi, et accueillir une
-                  transformation.
+                  <span className="text-pharaonic-gold text-2xl">𖤍</span> L’extirper à son impuissance pour qu’il se redresse <br></br>
+                  et parvienne enfin à pénétrer notre autre pôle - complétement
+                  ignoré et pourtant parfaitement opérant dans notre vie au quotidien - la
+                  Matrice Inconsciente (le principe féminin en nous) 
                 </p>
                 <p className="text-lg font-medium">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Chez Per Horus, nous n'analysons pas les rêves. Nous les lisons comme des oracles intérieurs, 
-                  et nous guidons chacun dans cette rencontre — réelle, intime, transformatrice — avec l'autre en soi.
+                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Nous sommes chacun tout un microcosme vivant,
+                  avec une vie intérieure polarisée extra riche.
+                   Pour s'y épanouir, on doit acquérir les éléments de 
+                   langages de cette intelligence qui nous habite. 
                 </p>
               </ScrollReveal>
               <ScrollReveal direction="left" className="order-1 md:order-2">
@@ -100,7 +102,7 @@
             <section>
                <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                Ce que comprend l'adhésion
+                <span className="text-pharaonic-gold text-2xl">✦</span>  Ce que comprend l'adhésion
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="pharaonic-border p-6 bg-pharaonic-sand/10 rounded">
@@ -145,7 +147,7 @@
             <section>
               <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                Pourquoi ?
+                <span className="text-pharaonic-gold text-2xl">✦</span> Pourquoi ?
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="relative h-[300px] rounded-md overflow-hidden pharaonic-border">
@@ -184,27 +186,37 @@
             <section>
               <ScrollReveal>
                 <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                  Pourquoi ?
+                  <span className="text-pharaonic-gold text-2xl">✦ À quoi vous devenez cercle </span>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                   <div className="space-y-4 md:order-1">
                     <ul className="scarab-bullet space-y-3">
                       <li>
-                        <span className="text-pharaonic-gold text-2xl">𓆓</span> 25% des enfants égyptiens sont en situation de handicap. Moins de 0,2% d'entre
-                        eux sont à l'école. Moins de 3% ont accès aux soins. Beaucoup sont rejetés. Exclus.
-                        Effacés. Même par leur propre famille.
+                        <span className="text-pharaonic-gold text-2xl">𓆓</span> À un cercle d’étude exigeant, vivant, structurant.
                       </li>
                       <li>
-                        <span className="text-pharaonic-gold text-2xl">𓆓</span> Imaginez maintenant ces enfants abandonnés, maltraités, sans voix, sans toit.
+                        <span className="text-pharaonic-gold text-2xl">𓆓</span> À un enseignement et un partage régulier, soutenant, clair. 
                       </li>
                       <li>
-                        <span className="text-pharaonic-gold text-2xl">𓆓</span> Pendant des années, j'ai su. J'ai vu. J'ai lu les rapports. J'ai regardé des vidéos. J'ai pleuré.
-                        J'ai fermé l'écran.
-                        Et j'ai continué ma vie. En portant ce silence comme une trahison.
+                        <span className="text-pharaonic-gold text-2xl">𓆓</span> À un groupe d’être humains qui visent l’évolution de la conscience humaine.
                       </li>
                       <li>
-                        <span className="text-pharaonic-gold text-2xl">𓆓</span> Aujourd'hui, je n'ai plus le droit de me taire. Et vous non plus, peut-être.
+                        <span className="text-pharaonic-gold text-2xl">𓆓</span> Et à la première pierre d’un orphelinat pour des enfants handicapés que personne ne veut regarder.
                       </li>
+                       <li>
+                        <span className="text-pharaonic-gold text-2xl">𓆓</span> 100 % des droits d’auteur du livre « Il suffit d’observer » y sont dédiés. 
+                            Et une part de chaque adhésion au Cercle servira à leur bâtir un lieu digne.  
+                          </li>
+                      <li>
+                        <span className="text-pharaonic-gold text-2xl">𓆓</span> Ce Cercle est une réponse Pas une solution magique, 
+                        Mais un lieu d’action symbolique et réelle.
+                      </li>
+                       <li>
+                        <span className="text-pharaonic-gold text-2xl">𓆓</span> Si vous êtes arrivé ici, ce n’est pas un hasard. 
+                            Et si vous avez encore un pincement au cœur en lisant tout ça, c’est que vous êtes vivant. 
+
+                      </li>
+
                     </ul>
                   </div>
 
@@ -212,7 +224,7 @@
                     <img 
                       src="/images/100.jpeg" 
                       alt="Enfant égyptien" 
-                      className="w-full h-65 object-cover"
+                      className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-pharaonic-charcoal/80 to-transparent"></div>
                   </div>
