@@ -113,7 +113,7 @@ const Origin = () => {
           </section>
           
           <div className="hieroglyph-divider">
-            <span className="text-pharaonic-gold">𓂀</span>
+        
           </div>
           
           <section className="text-center">
@@ -131,14 +131,16 @@ const Origin = () => {
               Une œuvre vivante pour celles et ceux qui ne veulent plus faire semblant.
             </p>
             
-            <div className="mt-12">
+            <div className="mt-14">
+              <button>
+            
                   <Link 
                      to="/circle"
-                     className="inline-flex items-right font-egyptian text-pharaonic-gold hover:text-pharaonic-gold/80 transition-colors group"
+                     className="w-full md:w-[250px] text-center px-2 py-1 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
                    >
                      Agir →
                    </Link>
-             
+             </button>
             </div>
             </ScrollReveal>
           </section>

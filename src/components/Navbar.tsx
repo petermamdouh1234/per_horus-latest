@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const navigation = [
     { name: 'Le Seuil', href: '/' },
-    { name: 'Lè Pacte Foundateur', href: '/about' },
+    { name: 'LArche des Transmissions', href: '/about' },
     { name: 'Onirologie', href: '/onirologie' },
     { name: 'Pèlerinages', href: '/pilgrimages' },
     { name: 'Le Livre', href: '/book' },

@@ -1,10 +1,14 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ScrollReveal from '@/components/ScrollReveal';
 import { Menu, X } from 'lucide-react';
+import InstructionsModal from '@/components/InstructionsModal';
+import { Button } from '@/components/ui/button';
 
 const About = () => {
+    const [dreamModalOpen, setDreamModalOpen] = useState(false);
+  
   return (
     <div className="py-16">
       <div className="container mx-auto px-4">
@@ -101,11 +105,10 @@ const About = () => {
                 <a 
                   href="/files/Statuts de l'Association PDF D.pdf"
                   download="Télécharger le PDF"
-                  className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
-                             hover:bg-pharaonic-gold/90 transition-colors 
-                             font-egyptian tracking-wider"
-                >
-                  Télécharger la mission (PDF)
+                    className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider inline-block text-center"
+              >
+                
+                  Télécharger la mission ⬇
                 </a>
               </div>
             </ScrollReveal>
@@ -350,7 +353,7 @@ const About = () => {
               <div className="lg:w-1/2 order-2 lg:order-1">
                 <ScrollReveal>
                   <h2 className="font-egyptian text-2xl text-pharaonic-gold mb-4 mt-12">
-                    ✦ Les Piliers du Chantier13
+                    ✦ Les Piliers du Chantier
                   </h2>
                 </ScrollReveal>
 
@@ -426,32 +429,90 @@ const About = () => {
             <ScrollReveal>
               <div className="flex flex-col items-center justify-center mt-12 gap-4">
                 <div className="flex flex-col md:flex-row gap-4">
-                  <a href="/files/Kheka_Yoga_Programme.pdf"
-                    download="Kheka_Yoga_Programme.pdf"
-                    className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
-                               hover:bg-pharaonic-gold/90 transition-colors 
-                               font-egyptian tracking-wider">
-                    Télécharger le programme Kheka Yoga</a>
-                  <Link to="/contact"
-                    className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
-                               hover:bg-pharaonic-gold/90 transition-colors 
-                               font-egyptian tracking-wider"
-                  >
-                    S'inscrire
-                  </Link>
+                  <Button
+                    asChild
+                   className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider inline-block text-center"
+              >
+                    <a
+                      href="/files/.pdf"
+                      download="RÉVEILLER LE PHARAON EN SOI"
+                    >
+                      Télécharger le programme Kheka Yoga ⬇
+                    </a>
+                  </Button>
+              <Button onClick={() => setDreamModalOpen(true)}
+                 className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
+              >
+                S'inscrire 𓋹
+              </Button>
                 </div>
                 
                 <Link 
                   to="/pilgrimages"
                   className="inline-flex items-center font-egyptian text-pharaonic-gold hover:text-pharaonic-gold/80 transition-colors group"
                 >
-                  Explorer nos engagements →
+                 Entrez dans l’expérience →
                 </Link>
               </div>
             </ScrollReveal>
           </div>
         </div>
       </div>
+      {/* Instruction */}
+      <InstructionsModal 
+        open={dreamModalOpen} 
+        onOpenChange={setDreamModalOpen}
+        title="Le processus"
+      >
+        <ol className="space-y-4">
+          <li className="flex items-start">
+            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</span>
+            <p>
+             Merci de bien vouloir remplir ce formulaire pour finaliser votre inscription : <br></br>&nbsp;
+              <a 
+               href="https://docs.google.com/forms/d/1tjsCw7xwE8MSako35iuEjAdFUZSjM3gPz3ZktJubpDQ/edit" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >dans ce formulaire</a>.
+            </p> </li>
+          <li className="flex items-start">
+            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 
+            flex-shrink-0 mt-0.5">1</span>
+            <p>
+            Veuillez régler 570 CHF via ce lien Stripe :<br></br>&nbsp;
+              <a 
+                href="https://buy.stripe.com/test_5kQfZa0cM21o2PR1CP7AI03" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >striplink</a>.
+            </p> </li>
+          <li className="flex items-start">
+            <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</span>
+            <p>
+              Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation &nbsp;
+              <a
+                href="https://wa.me/201288997778"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >
+                01288997778
+              </a>
+            </p> </li>
+        </ol>
+        {/*}
+        <div className="mt-6 border-t border-pharaonic-gold/30 pt-4">
+          <p className="font-egyptian text-xl text-pharaonic-gold">Note :</p>
+          <p className="text-lg mt-2">
+            Ce n'est pas un service. C'est une clé offerte pour ouvrir un seuil oublié (dans l'ombre
+            de l'inconscient). Ce tarif n'achète pas une interprétation. Il honore une transmission rare, un moment 
+            suspendu entre le visible et l'invisible. Il soutient un travail patient, ancré, offert dans une écoute totale.
+          </p>
+        </div>
+        */}
+      </InstructionsModal>
     </div>
   );
 };

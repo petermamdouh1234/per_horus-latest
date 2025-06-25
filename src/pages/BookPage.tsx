@@ -99,9 +99,9 @@ const BookPage = () => {
                 un guide discret qui vous ramène à votre axe, à votre vérité.
               </p>
               <div className="text-center my-6 space-y-2 bg-gradient-to-r from-pharaonic-gold/20 to-pharaonic-sand/20 p-4 rounded-lg">
-                <p className="text-lg">Chaque page est une clef.</p>
-                <p className="text-lg">Chaque mot est un signal.</p>
-                <p className="text-lg">Ce que vous cherchez est peut-être là, dans une phrase que vous n'avez pas choisie.</p>
+                <p className="text-lg"><span className="text-pharaonic-gold text-2xl">𓁈</span> Chaque page est une clef.</p>
+                <p className="text-lg"><span className="text-pharaonic-gold text-2xl">𓁈</span> Chaque mot est un signal.</p>
+                <p className="text-lg"> <span className="text-pharaonic-gold text-2xl">𓁈</span> Ce que vous cherchez est peut-être là, dans une phrase que vous n'avez pas choisie.</p>
               </div>
             </div>
              </ScrollReveal>
@@ -136,10 +136,14 @@ const BookPage = () => {
                   </span>
                   <span>L'infini, le miroir, le pardon, la liberté, la joie d'exister</span>
                 </li>
+                 <li className="flex items-start">
+                  <span className="w-6 h-6 mr-3 flex-shrink-0 mt-0.5">
+                    <img src="/svgs/eye_of_horus.svg" alt="Scarab" className="w-full h-full" />
+                  </span>
+                  <span>Ce livre est un journal d'âme déstructuré, organisé par les silences qu'il provoque.</span>
+                </li>
               </ul>
-              <p className="text-lg">
-                Ce livre est un journal d'âme déstructuré, organisé par les silences qu'il provoque.
-              </p>
+            
             </div>
              </ScrollReveal>
           </section>
@@ -152,24 +156,20 @@ const BookPage = () => {
               </span>
               Comment pratiquer la bibliomancie avec ce livre
             </h2>
-            <ol className="space-y-4">
-              <li className="flex items-start">
-                <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</span>
-                <p className="text-lg">Centrez-vous sur vos sens. Respirez. Ressentez le sol sous vos pieds.</p>
-              </li>
-              <li className="flex items-start">
-                <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">2</span>
-                <p className="text-lg">Laissez venir la question ou l'intention sans la formuler mentalement.</p>
-              </li>
-              <li className="flex items-start">
-                <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</span>
-                <p className="text-lg">Ouvrez le livre au hasard.</p>
-              </li>
-              <li className="flex items-start">
-                <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">4</span>
-                <p className="text-lg">Lisez la question et la réponse qui apparaissent. Ne les analysez pas : laissez-les résonner.</p>
-              </li>
-            </ol>
+              <ul className="space-y-3">
+              {["Centrez-vous sur vos sens. Respirez. Ressentez le sol sous vos pieds.",  
+                "Laissez venir la question ou l'intention sans la formuler mentalement",  
+                "Ouvrez le livre au hasard.", 
+                "Lisez la question et la réponse qui apparaissent. Ne les analysez pas : laissez-les résonner." 
+              ].map((text, index) => (
+                <li key={index} className="flex items-start">
+                  <span className="w-6 h-6 mr-3 flex-shrink-0 mt-0.5">
+                    <img src="/svgs/eye_of_horus.svg" alt="Scarab" className="w-full h-full" />
+                  </span>
+                  <span>{text}</span>
+                </li>
+              ))}
+            </ul>
             <p className="text-lg mt-6">
               Chaque fois, un dialogue se rouvre entre vous et votre inconscient.
               Ce livre est une invitation à être traversé.
@@ -219,12 +219,12 @@ const BookPage = () => {
           <section className="p-8 bg-gradient-to-r from-pharaonic-gold/20 to-pharaonic-sand/30 rounded-lg text-center">
             <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-4">
-                Disponible maintenant
+                <span className="text-pharaonic-gold text-2xl">✦</span> Disponible maintenant
               </h2>
-              <p className="text-lg mb-2">Format : Livre papier</p>
-              <p className="text-2xl font-medium mb-6">Prix : 17,50 CHF</p>
+              <p className="text-lg mb-2"><span className="text-pharaonic-gold text-2xl">𓅓</span> Format : Livre papier</p>
+              <p className="text-2xl font-medium mb-6"><span className="text-pharaonic-gold text-2xl">𓅓</span> Prix : 17,50 CHF <br></br><span className="text-pharaonic-gold text-2xl">𓅓</span> frais d’expédition : 5,5 CHF</p>
               <p className="text-lg mb-8">
-                Offrez à votre inconscient une porte d'accès claire, libre, et poétique.
+               <span className="text-pharaonic-gold text-2xl">𓅓</span> Offrez à votre inconscient une porte d'accès claire, libre, et poétique.
                 Car parfois, il suffit d'observer.
               </p>
               
@@ -235,13 +235,14 @@ const BookPage = () => {
                 >
                   <BookOpen className="w-5 h-5 mr-2" /> Commander le livre
                 </Button>
-                <Button
-                  variant="outline"
-                  className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider flex items-center justify-center"
-                  onClick={handleDownload}
-                >
-                  <Download className="w-5 h-5 mr-2" /> Télécharger le dossier de presse
-                </Button>
+                <a
+            href="/files/Dossier%20de%20presse%20-%20Il%20suffit%20d'Observer!.pdf"
+            download="Dossier_de_presse_Il_suffit_d_Observer.pdf"
+            className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider inline-block text-center"
+          >
+            Télécharger le dossier de presse ⬇
+          </a>
+
               </div>
             </ScrollReveal>
           </section>
@@ -249,19 +250,15 @@ const BookPage = () => {
           <section className="text-center">
              <ScrollReveal>
             <div className="font-medium my-6 space-y-2 bg-pharaonic-gold/10 p-6 rounded-lg">
-              <p className="text-lg">Ce livre est une graine. Un miroir. Un outil de réveil doux.</p>
-              <p className="text-lg">C'est la version silencieuse d'un même message :</p>
-              <p className="text-xl font-egyptian text-pharaonic-gold">La sagesse n'est pas absente. Elle attend que l'on s'observe.</p>
+              <p className="text-lg"> <span className="text-pharaonic-gold text-2xl">𓅓</span>Ce livre est une graine. Un miroir. Un outil de réveil doux.</p>
+              <p className="text-lg"><span className="text-pharaonic-gold text-2xl">𓅓</span> C'est la version silencieuse d'un même message :</p>
+              <p className="text-xl font-egyptian text-pharaonic-gold"><span className="text-pharaonic-gold text-2xl">𓅓</span> La sagesse n'est pas absente. Elle attend que l'on s'observe 𓅓</p>
             </div>
             </ScrollReveal>
           </section>
         </div>
         
-        <div className="mt-16 pt-8 border-t border-pharaonic-gold/30 text-center">
-          <Link to="/contact" className="inline-flex items-center font-egyptian text-pharaonic-gold hover:text-pharaonic-gold/80 transition-colors">
-            Pratiquer la Bibliomancie <ArrowRight className="ml-2 h-4 w-4" />
-          </Link>
-        </div>
+      
       </div>
       
       {/* Order Book Modal */}
@@ -273,25 +270,53 @@ const BookPage = () => {
         <ol className="space-y-4">
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</span>
-            <p>Rédigez votre rêve avec soin. Fidèlement. En détail. Chaque élément est un hiéroglyphe vivant.</p>
+           <p>
+             Merci de bien vouloir remplir ce formulaire pour finaliser votre inscription : <br></br>&nbsp;
+              <a 
+                href="https://docs.google.com/forms/d/1Elt3qEzHDxh-nKbwuzTDVnCsU36qVW9BUDfyHEoYMVs/edit" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >dans ce formulaire</a>.
+            </p>
           </li>
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">2</span>
-            <p>Envoyez-le par mail à : reves@perhorus.org</p>
+             <p>
+              Veuillez régler 23.00 CHF via ce lien Stripe :<br></br>&nbsp;
+              <a 
+                href="https://buy.stripe.com/test_7sY28kcZygWifCDepB7AI00" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >striplink</a>.
+            </p>
           </li>
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</span>
-            <p>Nous vous recontacterons pour fixer un rendez-vous en ligne (visioconférence ou appel). Un espace sobre, profond, confidentiel — où le rêve sera traversé, écouté, traduit et intégré.</p>
-          </li>
+           <p>
+              Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation&nbsp;
+              <a
+                href="https://wa.me/201288997778"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
+              >
+                01288997778
+              </a>
+            </p>  </li>
         </ol>
-        <div className="mt-6 border-t border-pharaonic-gold/30 pt-4">
-          <p className="font-egyptian text-xl text-pharaonic-gold">Contribution : CHF 90.–</p>
-          <p className="text-lg mt-2">
-            Ce n'est pas un service. C'est une clé offerte pour ouvrir un seuil oublié (dans l'ombre
-            de l'inconscient). Ce tarif n'achète pas une interprétation. Il honore une transmission rare, un moment 
-            suspendu entre le visible et l'invisible. Il soutient un travail patient, ancré, offert dans une écoute totale.
-          </p>
-        </div>
+        {/* 
+  Contribution section explaining the fee:
+  - The amount is CHF 90.–
+  - Emphasizes that this fee is not for a typical service, but rather a key to accessing a forgotten threshold 
+    within the unconscious.
+  - The price does not buy an interpretation, but honors a rare transmission — a suspended moment 
+    between the visible and invisible.
+  - It supports patient, grounded work offered with full attention and listening.
+*/}
+
+        
       </InstructionsModal>
     </div>
   );
