@@ -297,7 +297,8 @@ const BookPage = () => {
            <p>
               Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation&nbsp;
               <a
-                href="https://wa.me/2089755668645"
+                href="https://wa.me/+41764707386
+"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
