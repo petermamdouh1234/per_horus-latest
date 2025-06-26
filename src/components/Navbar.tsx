@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const navigation = [
     { name: 'Le Seuil', href: '/' },
-    { name: 'Lè Pacte Foundateur', href: '/about' },
+    { name: 'LArche des Transmissions', href: '/about' },
     { name: 'Onirologie', href: '/onirologie' },
     { name: 'Pèlerinages', href: '/pilgrimages' },
     { name: 'Le Livre', href: '/book' },
@@ -27,14 +27,15 @@ const Navbar = () => {
           <Logo />
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center gap-x-6 flex-wrap justify-end">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
-                className={`font-egyptian font-medium tracking-wider transition-colors hover:text-pharaonic-gold text-sm relative ${
-                  location.pathname === item.href 
-                    ? 'text-pharaonic-gold after:content-[""] after:absolute after:bottom-[-10px] after:left-0 after:w-full after:h-1 after:bg-pharaonic-gold' 
+                style={{ maxWidth: '340px' }}
+                className={`truncate font-egyptian font-medium tracking-normal transition-colors hover:text-pharaonic-gold text-sm relative ${
+                  location.pathname === item.href
+                    ? 'text-pharaonic-gold after:content-[""] after:absolute after:bottom-[-10px] after:left-0 after:w-full after:h-1 after:bg-pharaonic-gold'
                     : ''
                 }`}
               >

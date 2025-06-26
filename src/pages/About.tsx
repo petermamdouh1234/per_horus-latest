@@ -105,11 +105,10 @@ const About = () => {
                 <a 
                   href="/files/Statuts de l'Association PDF D.pdf"
                   download="Télécharger le PDF"
-                  className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded
-                             hover:bg-pharaonic-gold/90 transition-colors 
-                             font-egyptian tracking-wider"
-                >
-                  Télécharger la mission (PDF)
+                    className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider inline-block text-center"
+              >
+                
+                  Télécharger la mission ⬇
                 </a>
               </div>
             </ScrollReveal>
@@ -354,7 +353,7 @@ const About = () => {
               <div className="lg:w-1/2 order-2 lg:order-1">
                 <ScrollReveal>
                   <h2 className="font-egyptian text-2xl text-pharaonic-gold mb-4 mt-12">
-                    ✦ Les Piliers du Chantier13
+                    ✦ Les Piliers du Chantier
                   </h2>
                 </ScrollReveal>
 
@@ -432,19 +431,19 @@ const About = () => {
                 <div className="flex flex-col md:flex-row gap-4">
                   <Button
                     asChild
-                    className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
-                  >
+                   className="px-6 py-3 bg-transparent border-2 border-pharaonic-gold text-pharaonic-gold font-medium rounded hover:bg-pharaonic-gold/10 transition-colors font-egyptian tracking-wider inline-block text-center"
+              >
                     <a
-                      href="/files/Reveiller_le_Pharaon_en_Soi_PDF_A.pdf"
+                      href="/files/.pdf"
                       download="RÉVEILLER LE PHARAON EN SOI"
                     >
-                      Télécharger le programme Kheka Yoga
+                      Télécharger le programme Kheka Yoga ⬇
                     </a>
                   </Button>
               <Button onClick={() => setDreamModalOpen(true)}
-                className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
+                 className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
               >
-                S'inscrire
+                S'inscrire 𓋹
               </Button>
                 </div>
                 
@@ -452,7 +451,7 @@ const About = () => {
                   to="/pilgrimages"
                   className="inline-flex items-center font-egyptian text-pharaonic-gold hover:text-pharaonic-gold/80 transition-colors group"
                 >
-                  Explorer nos engagements →
+                 Entrez dans l’expérience →
                 </Link>
               </div>
             </ScrollReveal>
@@ -469,10 +468,9 @@ const About = () => {
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</span>
             <p>
-              Notez votre rêve avec soin. Fidèlement. Détaillément. Chaque élément est un hiéroglyphe vivant. 
-              Remplissez-le <br></br>&nbsp;
+             Merci de bien vouloir remplir ce formulaire pour finaliser votre inscription : <br></br>&nbsp;
               <a 
-                href="https://docs.google.com/forms/d/1ruj8QU5wNeJJPFCcokhmhvCBKzwOiza4Wu7RTbPHYrM/edit" 
+               href="https://docs.google.com/forms/d/1tjsCw7xwE8MSako35iuEjAdFUZSjM3gPz3ZktJubpDQ/edit" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
@@ -482,9 +480,9 @@ const About = () => {
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 
             flex-shrink-0 mt-0.5">1</span>
             <p>
-              Contribution : 90 CHF sur ce compte<br></br>&nbsp;
+            Veuillez régler 570 CHF via ce lien Stripe :<br></br>&nbsp;
               <a 
-                href="here is the strip link.com" 
+                href="https://buy.stripe.com/test_5kQfZa0cM21o2PR1CP7AI03" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
@@ -493,9 +491,9 @@ const About = () => {
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</span>
             <p>
-              Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation&nbsp;
+              Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation &nbsp;
               <a
-                href="https://wa.me/201288997778"
+                href="https://wa.me/208975584668"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
@@ -504,6 +502,7 @@ const About = () => {
               </a>
             </p> </li>
         </ol>
+        {/*}
         <div className="mt-6 border-t border-pharaonic-gold/30 pt-4">
           <p className="font-egyptian text-xl text-pharaonic-gold">Note :</p>
           <p className="text-lg mt-2">
@@ -512,6 +511,7 @@ const About = () => {
             suspendu entre le visible et l'invisible. Il soutient un travail patient, ancré, offert dans une écoute totale.
           </p>
         </div>
+        */}
       </InstructionsModal>
     </div>
   );

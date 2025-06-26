@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-
+import GatePopup from '../components/GatePopup';
 import HeroSection from '@/components/HeroSection';
 import ScrollReveal from '@/components/ScrollReveal';
 
@@ -20,9 +20,7 @@ const Index = () => {
                 <span className="text-pharaonic-gold text-2xl">𓆓</span> Le Seuil
               </h2>
 
-              <div className="hieroglyph-divider">
-                <span className="text-pharaonic-gold">𓂀</span>
-              </div>
+            
 
               <div className="my-8">
                 <img
@@ -150,19 +148,19 @@ const Index = () => {
                       to="/about"
                       className="w-full md:w-[250px] text-center px-2 py-1 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
                     >
-                      explorer
+                      explorer →
                     </Link>
                     <Link
                       to="/pilgrimages"
                       className="w-full md:w-[250px] text-center px-2 py-1 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
                     >
-                      voyager
+                      voyager →
                     </Link>
                     <Link
                       to="/onirologie"
                       className="w-full md:w-[250px] text-center px-2 py-1 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
                     >
-                      rêver
+                      rêver → 
                     </Link>
                   </div>
                 </div>

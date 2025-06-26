@@ -22,7 +22,7 @@ const Onirologie = () => {
           <section>
             <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                Incubation des rêves – sagesse onirique égyptienne
+               ✦ Incubation des rêves – sagesse onirique égyptienne
               </h2>
             </ScrollReveal>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -35,24 +35,24 @@ const Onirologie = () => {
               </ScrollReveal>
               <ScrollReveal direction="right" className="space-y-4">
                 <p className="text-lg">
-                   <span className="text-pharaonic-gold text-2xl">𖤍</span> Dormir était un acte rituel. Rêver, un art sacré. L'Égypte ne s'endormait pas : elle plongeait.
+                   <span className="text-pharaonic-gold text-2xl">𓋹</span> Dormir était un acte rituel. Rêver, un art sacré. L'Égypte ne s'endormait pas : elle plongeait.
                 </p>
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> L'incubation onirique, pratiquée dans les temples égyptiens, était bien plus qu'une simple
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> L'incubation onirique, pratiquée dans les temples égyptiens, était bien plus qu'une simple
                   attente de visions nocturnes. C'était une science intérieure, un processus structuré : silence, 
                   purification, intention, offrande, sommeil guidé.
                 </p>
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Le rêve n'était pas un hasard. Il était appelé, préparé, accueilli.
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Le rêve n'était pas un hasard. Il était appelé, préparé, accueilli.
                   À travers cette pratique, le rêveur entrait dans un sanctuaire invisible, où les dieux
                   devenaient symboles, et les symboles devenaient messages.
                 </p>
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Chaque rêve reçu dans cet état était un hiéroglyphe vivant, une réponse du monde subtil à
+                  <span className="text-pharaonic-gold text-2xl">𓋹</span> Chaque rêve reçu dans cet état était un hiéroglyphe vivant, une réponse du monde subtil à
                   une quête posée.
                 </p>
                 <p className="text-lg font-medium">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Chez Per Horus, nous réveillons cette sagesse. Nous enseignons l'incubation comme un art rigoureux.
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Chez Per Horus, nous réveillons cette sagesse. Nous enseignons l'incubation comme un art rigoureux.
                 </p>
               </ScrollReveal>
             </div>
@@ -61,27 +61,27 @@ const Onirologie = () => {
           <section>
             <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                Rencontre de l'anima ou de l'animus
+                ✦ Rencontre de l'anima ou de l'animus
               </h2>
             </ScrollReveal>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <ScrollReveal direction="right" className="space-y-4 order-2 md:order-1">
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Tout rêve profond est une rencontre. Et parfois, une confrontation.
+                  <span className="text-pharaonic-gold text-2xl">𓋹</span> Tout rêve profond est une rencontre. Et parfois, une confrontation.
                 </p>
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Carl Jung appelait anima (principe féminin) et animus (principe masculin) les forces
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Carl Jung appelait anima (principe féminin) et animus (principe masculin) les forces
                   inconscientes qui équilibrent notre psyché. En Égypte, ces forces prenaient forme divine : 
                   Isis, Horus, Sekhmet, Osiris… non pas comme des mythes, mais comme visages de notre propre totalité.
                 </p>
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Rencontrer son anima ou son animus en rêve, ce n'est pas "penser au féminin ou au
+                  <span className="text-pharaonic-gold text-2xl">𓋹</span> Rencontrer son anima ou son animus en rêve, ce n'est pas "penser au féminin ou au
                   masculin" : c'est incarner une union intérieure entre ce que nous sommes et ce qui nous manque.
                   C'est embrasser le complémentaire, reconnaître l'altérité en soi, et accueillir une
                   transformation.
                 </p>
                 <p className="text-lg font-medium">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Chez Per Horus, nous n'analysons pas les rêves. Nous les lisons comme des oracles intérieurs, 
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Chez Per Horus, nous n'analysons pas les rêves. Nous les lisons comme des oracles intérieurs, 
                   et nous guidons chacun dans cette rencontre — réelle, intime, transformatrice — avec l'autre en soi.
                 </p>
               </ScrollReveal>
@@ -99,7 +99,7 @@ const Onirologie = () => {
           <section>
             <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                Outil d'individuation, miroir de l'âme
+               ✦ Outil d'individuation, miroir de l'âme
               </h2>
             </ScrollReveal>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -112,22 +112,22 @@ const Onirologie = () => {
               </ScrollReveal>
               <ScrollReveal direction="right" className="space-y-4">
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Ce n'est pas le rêve qui a besoin d'interprétation. C'est nous qui avons besoin de redevenir lisibles.
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Ce n'est pas le rêve qui a besoin d'interprétation. C'est nous qui avons besoin de redevenir lisibles.
                 </p>
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Le rêve est un miroir sans mensonge. Il montre ce que nous ne voulons pas voir, ce que
+                  <span className="text-pharaonic-gold text-2xl">𓋹</span> Le rêve est un miroir sans mensonge. Il montre ce que nous ne voulons pas voir, ce que
                   nous ignorons, ce que nous avons refoulé. Mais il montre aussi ce que nous sommes appelés à devenir.
                 </p>
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> C'est pourquoi Jung parlait de l'individuation : ce processus alchimique où l'être humain
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> C'est pourquoi Jung parlait de l'individuation : ce processus alchimique où l'être humain
                   cesse d'imiter, de fuir ou de plaire — et commence à s'unifier, à redevenir un, à habiter son axe intérieur.
                 </p>
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Les rêves sont alors des alliés puissants, des éclaireurs de nuit, des souffleurs de vérité.
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Les rêves sont alors des alliés puissants, des éclaireurs de nuit, des souffleurs de vérité.
                   À travers eux, l'âme se dévoile — non dans la clarté, mais dans la profondeur.
                 </p>
                 <p className="text-lg font-medium">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Chez Per Horus, nous faisons du rêve un outil de reconstruction intérieure,
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Chez Per Horus, nous faisons du rêve un outil de reconstruction intérieure,
                   un atelier sacré où l'ego factis se dissout, le mythe se révèle, et l'être se rassemble.
                 </p>
               </ScrollReveal>
@@ -137,7 +137,7 @@ const Onirologie = () => {
           <section>
             <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                Pour qui ?
+                 ✦ Pour qui ?
               </h2>
               <p className="text-lg mb-4">Ce travail est pour :</p>
             </ScrollReveal>
@@ -163,19 +163,19 @@ const Onirologie = () => {
           <section>
             <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-6">
-                Ce que nous proposons
+                ✦ Ce que nous proposons
               </h2>
             </ScrollReveal>
             <div className="space-y-4">
               <ScrollReveal delay={100}>
                 <p className="text-lg">
-                 <span className="text-pharaonic-gold text-2xl">𖤍</span> Le rêve vous connaît mieux que vous-même. Il ne parle pas pour distraire. Il guide.
+                 <span className="text-pharaonic-gold text-2xl">𓋹</span> Le rêve vous connaît mieux que vous-même. Il ne parle pas pour distraire. Il guide.
                   Mais encore faut-il savoir l'écouter — et le lire dans sa langue : le symbole.
                 </p>
               </ScrollReveal>
               <ScrollReveal delay={200}>
                 <p className="text-lg">
-                  <span className="text-pharaonic-gold text-2xl">𖤍</span> Chez Per Horus, l'interprétation d'un rêve est une œuvre sacrée, jamais automatisée, jamais
+                  <span className="text-pharaonic-gold text-2xl">𓋹</span> Chez Per Horus, l'interprétation d'un rêve est une œuvre sacrée, jamais automatisée, jamais
                   standardisée. C'est un travail de traduction subtile, fondé sur :
                 </p>
               </ScrollReveal>
@@ -200,7 +200,7 @@ const Onirologie = () => {
           <section className="text-center">
             <ScrollReveal>
               <h2 className="text-2xl font-egyptian text-pharaonic-gold mb-4">
-                À vous
+                𓁈 À vous
               </h2>
               <p className="text-lg">
                 Si un rêve vous a cherché — c'est qu'il vous appelle.
@@ -214,17 +214,13 @@ const Onirologie = () => {
                 onClick={() => setDreamModalOpen(true)}
                 className="inline-block px-8 py-3 bg-pharaonic-gold text-pharaonic-charcoal font-medium rounded hover:bg-pharaonic-gold/90 transition-colors font-egyptian tracking-wider"
               >
-                Faire parler mon rêve
+              
+                Faire parler mon rêve 🧠
               </Button>
             </ScrollReveal>
           </section>
         </div>
         
-        <div className="mt-16 pt-8 border-t border-pharaonic-gold/30 text-center">
-          <Link to="/pilgrimages" className="inline-flex items-center font-egyptian text-pharaonic-gold hover:text-pharaonic-gold/80 transition-colors">
-            Explorer les Pèlerinages Alchimiques <ArrowRight className="ml-2 h-4 w-4" />
-          </Link>
-        </div>
       </div>
 
       {/* Dream Modal */}
@@ -248,11 +244,11 @@ const Onirologie = () => {
             </p> </li>
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 
-            flex-shrink-0 mt-0.5">1</span>
+            flex-shrink-0 mt-0.5">2</span>
             <p>
-              Contribution : 90 CHF sur ce compte<br></br>&nbsp;
+              Veuillez régler 90 CHF via ce lien Stripe :<br></br>&nbsp;
               <a 
-                href="here is the strip link.com" 
+                href="https://buy.stripe.com/test_8x23coe3CcG2gGH5T57AI02" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
@@ -261,14 +257,14 @@ const Onirologie = () => {
           <li className="flex items-start">
             <span className="bg-pharaonic-gold text-pharaonic-charcoal rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</span>
             <p>
-              Veuillez envoyer la capture d'écran du paiement à ce numéro pour confirmation&nbsp;
+            Veuillez prendre rendez-vous avec la docteure en utilisant ce lien :&nbsp;
               <a
-                href="https://wa.me/201288997778"
+                href="https://calendly.com/dinasache320/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-pharaonic-gold underline hover:text-pharaonic-gold/80"
               >
-                01288997778
+               calendly
               </a>
             </p> </li>
         </ol>
